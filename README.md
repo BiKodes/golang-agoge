@@ -8,3 +8,8 @@ and modules.
 
 #### [Use this link to install Go](https://go.dev/doc/install)
 
+Read this to Learn about [Design Patterns - Adpater](https://medium.com/@CodewithChetan/design-patterns-adapter-decorator-fcad6c37f97f)
+
+Read this to learn about chaining multiple middlewares - [Mat Ryers' talk](https://medium.com/@matryer/writing-middleware-in-golang-and-how-go-makes-it-so-much-fun-4375c1246e81)
+
+Dig here for [Gorrila tool kit](https://gorilla.github.io/)
