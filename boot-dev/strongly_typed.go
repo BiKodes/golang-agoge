@@ -7,5 +7,4 @@ func main() {
 	var password string = "12345"
 
 	frm.Println("Authorization: Basic", username+":"+password)
-
 }
