@@ -14,7 +14,7 @@ func main() {
 	fmt.Println("map:", m)
 
 	v1 := m["k1"]
-	fmt.Println("map:", m)
+	fmt.Println("map:", v1)
 
 	v3 := m["k3"]
 	fmt.Println("v3:", v3)

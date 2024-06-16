@@ -20,12 +20,12 @@ type element[T any] struct {
 }
 
 func (list *List[T]) Push(v T) {
-	if lst.tail == nil {
-		lst.head = &element[T]{val: v}
-		lst.tail = lst.head
+	if list.tail == nil {
+		list.head = &element[T]{val: v}
+		list.tail = list.head
 	} else {
-		lst.tail.next = &element[T]{val: v}
-		lst.tail = lst.tail.next
+		list.tail.next = &element[T]{val: v}
+		list.tail = list.tail.next
 	}
 }
 
