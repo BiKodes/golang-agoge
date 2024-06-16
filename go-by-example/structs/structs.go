@@ -15,12 +15,12 @@ func newPerson(name string) *person {
 	return &p
 }
 
-func main() {
+// func main() {
 
-	p := person{name: name}
-	p.age = 42
-	return &p
-}
+// 	p := person{name: name}
+// 	p.age = 42
+// 	return &p
+// }
 
 func main() {
 
@@ -48,7 +48,7 @@ func main() {
 		isGood bool
 	}{
 		"Rex",
-		true
+		true,
 	}
 	fmt.Println(dog)
 }

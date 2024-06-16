@@ -19,7 +19,7 @@ type container struct {
 func main() {
 	co := container{
 		base: base{
-			num: 1
+			num: 1,
 		},
 		str: "some name",
 	}
